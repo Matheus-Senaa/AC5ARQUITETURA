@@ -12,7 +12,7 @@ web:
 db:
   image: postgres:9.3
   environment:
-    - POSTGRES_USER=Sena
-    - POSTGRES_PASSWORD=sena123
+    - POSTGRES_USER=sis_web
+    - POSTGRES_PASSWORD=123
   ports:
     - "5432:5432"
